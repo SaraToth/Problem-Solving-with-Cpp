@@ -13,6 +13,11 @@ int main() {
     sum = first_num + second_num;
     product = first_num * second_num;
 
+    cout<<"The sum of these numbers is ";
+    cout<<sum;
+    cout<<"\n The product of these numbers is ";
+    cout<<product;
+    cout<<"\n";
 
 
 
