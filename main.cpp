@@ -10,6 +10,10 @@ int main() {
     cout<<"Enter a second number: \n";
     cin>>second_num;
 
+    sum = first_num + second_num;
+    product = first_num * second_num;
+
+
 
 
     return 0;
