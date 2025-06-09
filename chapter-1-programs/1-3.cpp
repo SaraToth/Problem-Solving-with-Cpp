@@ -2,24 +2,24 @@
 using namespace std;
 
 int main() {
-    int quarters, dimes, nickels;
-    double sum; //Need this for decimals.
+    int quarters, dimes, nickels, cents;
+    double dollars; //Need this for decimals.
 
     cout<<"Press Enter after entering each number. \n";
-    cout<<"How many quarters? \n";
+    cout<<"How many quarters do you have?\n";
     cin>>quarters;
 
-    cout<<"How many dimes? \n";
+    cout<<"How many dimes do you have?\n";
     cin>>dimes;
 
-    cout<<"How many nickels? \n";
+    cout<<"How many nickels do you have?\n";
     cin>>nickels;
 
-    sum = (quarters * 0.25) + (dimes * 0.10) + (nickels * 0.05);
+    cents = (quarters * 25) + (dimes * 10) + (nickels * 5);
+    dollars = cents / 100.0; // Ensures result is a decimal
 
-    cout<<"The total value of these coins is ";
-    cout<<sum;
-    cout<<" cents. \n";
+    cout << quarters << " quarters, " << dimes << " dimes, and " << nickels << " nickels\n";
+    cout << "equals " << cents << " cent(s), or " << dollars << " dollar(s).\n";
 
     return 0;
 }
