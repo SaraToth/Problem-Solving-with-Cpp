@@ -33,3 +33,10 @@ will stop dieting, rather than the dieter’s current weight. Assume that diet s
 with the modifier const to give a name to this fraction. You may want to
 express the percent as the double value 0.001. Your program should allow
 the calculation to be repeated as often as the user wishes.
+
+- 2-2: Workers at a particular company have won a 7.6% pay increase retroactive
+for 6 months. Write a program that takes an employee’s previous annual
+salary as input, and outputs the amount of retroactive pay due the employee,
+the new annual salary, and the new monthly salary. Use a variable
+declaration with the modifier const to express the pay increase. Your program
+should allow the calculation to be repeated as often as the user wishes.
