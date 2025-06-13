@@ -73,3 +73,15 @@ the number of people exceeds the maximum room capacity, the program
 announces that the meeting cannot be held as planned due to fire regulations
 and tells how many people must be excluded in order to meet the
 fire regulations.
+
+- 2-6: An employee is paid at a rate of $16.78 per hour for the first 40 hours
+worked in a week. Any hours over that are paid at the overtime rate of oneand-
+one-half times that. From the worker’s gross pay, 6% is withheld for
+Social Security tax, 14% is withheld for federal income tax, 5% is withheld
+for state income tax, and $10 per week is withheld for union dues. If the
+worker has three or more dependents, then an additional $35 is withheld
+to cover the extra cost of health insurance beyond what the employer pays.
+Write a program that will read in the number of hours worked in a week
+and the number of dependents as input and will then output the worker’s
+gross pay, each withholding amount, and the net take-home pay for the
+week.
