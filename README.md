@@ -62,3 +62,14 @@ of the loan in months. The program should then calculate the face value
 required in order for the consumer to receive the amount needed. It should
 also calculate the monthly payment. Your program should allow the calculations
 to be repeated as often as the user wishes.
+
+- 2-5: Write a program that determines whether a meeting room is in violation
+of fire law regulations regarding the maximum room capacity. The program
+will read in the maximum room capacity and the number of people
+attending the meeting. If the number of people is less than or equal to the
+maximum room capacity, the program announces that it is legal to hold
+the meeting and tells how many additional people may legally attend. If
+the number of people exceeds the maximum room capacity, the program
+announces that the meeting cannot be held as planned due to fire regulations
+and tells how many people must be excluded in order to meet the
+fire regulations.
